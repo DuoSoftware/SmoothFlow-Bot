@@ -1,0 +1,16 @@
+{
+  "name": "smoothflow-bot",
+  "version": "0.0.1",
+  "description": "An intent based bot for helping smoothflow customers.",
+  "main": "index.js",
+  "dependencies": {
+    "botpress": "1.x",
+    "botpress-web": "1.x"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prasad Jayashanka",
+  "license": "Botpress Proprietary License"
+}
