@@ -1,4 +1,4 @@
-welcome: # this is the #welcome bloc referenced in index.js
+welcomeOG: # this is the #welcome bloc referenced in index.js
   - typing: true
     text: # Picks one randomly
       - Hey there!
@@ -12,7 +12,22 @@ welcome: # this is the #welcome bloc referenced in index.js
   - text: You can say goodbye now
     typing: 1s
 
-goodbye:
+goodbyeOG:
   - text: You are leaving because of reason {{reason}}
+    typing: true
+  - Hope to see you back again soon! # if no other properties, you can just send a strings
+
+welcome: # this is the #welcome bloc referenced in index.js
+  - typing: true
+    text: # Picks one randomly
+      - Hey there!
+      - G'day mate!
+      - Good day :)
+  - text: I'm glad you chose us. How can I help you?
+    typing: 2s
+  - text: Type 'help' to get a list of shortcuts.
+
+goodbye:
+  - text: "We are sad to see you leave. But hey I'm sure we'll meet again."
     typing: true
   - Hope to see you back again soon! # if no other properties, you can just send a strings

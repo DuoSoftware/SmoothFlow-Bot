@@ -1,6 +1,6 @@
 # DEFAULT SETTINGS
 botName: 'SmoothFlow Genie' ## Name of your bot
-botAvatarUrl: null ## Default avatar url of the image (e.g. 'https://avatars3.githubusercontent.com/u/1315508?v=4&s=400' )
+botAvatarUrl: 'http://dev.smoothflow.io/app/images/sf-small.png' ## Default avatar url of the image (e.g. 'https://avatars3.githubusercontent.com/u/1315508?v=4&s=400' )
 botConvoTitle: 'SmoothFlow Genie' ## Title of the first conversation with the bot
 botConvoDescription: ''
 

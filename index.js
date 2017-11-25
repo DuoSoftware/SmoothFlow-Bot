@@ -21,8 +21,12 @@
 
 module.exports = function(bp) {
 
-  bp.hear(/^hello$/i, (event, next) => {
+  bp.hear(/^hello$|^hi$|^hy$|^hey$/i, (event, next) => {
     event.reply('#welcome')
+  })
+
+  bp.hear(/^bye$|^exit$|^quit$/i, (event, next) => {
+    event.reply('#goodbye')
   })
 
   /*
