@@ -14,7 +14,7 @@ welcomeMsgText: | ## Welcome message that shows at on pop-up (multi-lines)
 # COLOR SETTINGS
 backgroundColor: '#ffffff' ## Color of the background 
 textColorOnBackground: '#666666' ## Color of the text on the background
-foregroundColor: '#0176ff' ## Element background color (header, composer, button..)
+foregroundColor: '#666666' ## Element background color (header, composer, button..)
 textColorOnForeground: '#ffffff'  ## Element text color (header, composer, button..)
 
 uploadsUseS3: true
