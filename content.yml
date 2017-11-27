@@ -23,7 +23,7 @@ welcome: # this is the #welcome bloc referenced in index.js
       - Hey there!
       - G'day mate!
       - Good day :)
-  - text: I'm glad you chose us. How can I help you?
+  - text: How can I help you?
     typing: 2s
   - text: Type 'help' to get a list of shortcuts.
 
